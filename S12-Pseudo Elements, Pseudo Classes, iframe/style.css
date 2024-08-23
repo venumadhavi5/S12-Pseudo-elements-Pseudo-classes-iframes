@@ -1,0 +1,62 @@
+h1::before{
+    content: "🌻";
+
+
+}
+h1::after{
+    content: "🌻";
+    
+}
+li::first-letter{
+    color: rgb(42, 165, 44);
+    font-size: 3rem;
+}
+h1{
+     font-size: 2rem;
+     color: blue;
+
+}
+li::marker{
+    content: "🔽";
+
+}
+li{
+    font-size: 2rem;
+     color:rgb(218, 63, 32);
+
+}
+p::first-line{
+    color: yellow;
+    background-color: blueviolet;
+}
+p::selection{
+    color: aqua;
+
+}
+a{
+    font-size: 2rem;
+}
+a:link{
+    color:darkorange;
+}
+a:visited{
+    color: rgb(6, 15, 72);
+
+}
+    
+
+a:hover{
+    color: black;
+    background-color: aqua;
+    text-decoration: none;
+}
+a:active{
+    border-radius: 50px;
+    background-color: grey;
+}
+li:hover{
+    background-color: aqua;
+    color: blue;
+}
+
+
